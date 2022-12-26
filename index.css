@@ -1,0 +1,18 @@
+.fredoka-one {
+  font-family: "Fredoka One", cursive;
+}
+
+.bg-computer {
+  background-repeat: no-repeat;
+  background-image: url("/assets/computer.png");
+  background-size: 70rem;
+  background-position-x: 130%;
+}
+
+@media only screen and (max-width: 1280px) {
+  .bg-computer {
+    background-size: 20rem;
+    background-position-x: 50%;
+    background-position-y: 10%;
+  }
+}
